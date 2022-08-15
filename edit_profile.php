@@ -3,9 +3,7 @@ if (! empty($_SESSION["user_name"])) {
 	$username= $_SESSION["user_name"];
 
 	}
-	else{
-		header("Location: login.php"); 
-	}
+	
 
 ?>
 <!--check the connection-->
